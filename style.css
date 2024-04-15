@@ -346,3 +346,97 @@ section {
 .text-copyright {
     color: #fff;
 }
+
+
+
+
+/*--------------------NEWS-----------------------*/
+
+.news{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+}
+
+.news-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-inner > h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.3;
+
+    margin-bottom: 20px;
+}
+
+.news-inner > p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+
+    max-width: 609px;
+
+    margin-bottom: 60px;
+}
+
+.box-news{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    gap: 30px;
+}
+
+.news-card {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
+}
+
+.news-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+    width: 302px;
+}
+
+.news-subtitle {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+
+    margin-top: 30px;
+
+    color: #000;
+}
+
+.news-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+    margin-top: 10px;
+
+    color: #000;
+}
+
+.news-link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+
+    margin-top: 20px;
+
+    color: #FF4B32;
+}
