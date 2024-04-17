@@ -97,7 +97,15 @@ section {
     gap: 55px;
 }
 
+.menu-item {
+    min-width: 85px;
+    display: flex;
+    justify-content: center;
+}
+
 .menu-link {
+    display: inline-block;
+
     font-size: 1.125em;
     line-height: 1.6;
 
