@@ -132,11 +132,11 @@ section {
     padding-top: 15vw;
     padding-bottom: 10vw;
 
-    background-image: url(/images/hero-bg.png);
+    background-image: url(/images/bg-header.png);
     background-color: #000;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
 }
 
 .hero-inner {
