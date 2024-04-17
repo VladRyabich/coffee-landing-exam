@@ -119,9 +119,9 @@ section {
 
 /*----------HERO SECTION----------*/
 .hero {
-    max-height: 51vh;
+    max-height: 46vh;
 
-    padding-top: 10vw;
+    padding-top: 15vw;
     padding-bottom: 10vw;
 
     background-image: url(/images/hero-bg.png);
@@ -194,9 +194,6 @@ section {
 
 
 /*----------OFFER SECTION----------*/
-.offer {
-    background-color: pink;
-}
 
 .offer-inner > .title {
     text-align: left;
@@ -255,10 +252,6 @@ section {
 
 
 /*----------GALLERY SECTION----------*/
-.gallery {
-    background-color: lightyellow;
-}
-
 .gallery-inner {
     display: flex;
     flex-direction: column;
@@ -402,8 +395,8 @@ section {
 /*--------------------NEWS-----------------------*/
 .news{
     display: flex;
-    background-color: skyblue;
     text-align: center;
+
     padding: 140px 0;
 }
 
