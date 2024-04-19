@@ -33,12 +33,12 @@ section {
 .container {
     max-width: 1410px;
 
-    margin: 0 auto;
+    margin: 0 10vw;
     padding: 0 15px;
 }
 
 .title {
-    font-size: 2.6875em;;
+    font-size: calc(1.46vw + 22px);
     font-weight: 600;
     line-height: 1.3;
 
@@ -79,6 +79,8 @@ section {
     display: flex;
     align-items: center;
     gap: 10px;
+
+    width: 138px;
 
     font-size: 1.5em;
     font-weight: 700;
@@ -147,8 +149,6 @@ section {
 
 .hero-content {
     max-width: 525px;
-
-    margin-left: 145px;
 }
 
 .hero-title {
@@ -164,7 +164,7 @@ section {
 }
 
 .hero-text {
-    font-size: 1.25em;
+    font-size: calc(0.28vw + 16px);
     font-weight: 600;
     line-height: 1.6;
 
@@ -184,6 +184,7 @@ section {
 
     padding: 16px 35px;
 
+    border: none;
     border-radius: 5px;
 
     color: #fff;
@@ -207,8 +208,6 @@ section {
     text-align: left;
     letter-spacing: 6.45px;
 
-
-    margin-left: 145px;
     margin-bottom: 20px;
 
     color: #000;
@@ -217,7 +216,6 @@ section {
 .offer-text {
     font-size: 1.125em;
 
-    margin-left: 145px;
     margin-bottom: 60px;
 
     max-width: 505px;
@@ -271,7 +269,7 @@ section {
     font-size: 1.125em;
     text-align: center;
 
-    width: 609px;
+    max-width: 609px;
 
     margin-bottom: 60px;
 }
@@ -343,7 +341,6 @@ section {
 }
 
 .follow-title {
-    font-size: 2.6875em;
     font-weight: 600;
     line-height: 1.3;
     text-align: center;
@@ -413,6 +410,8 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin: 0 auto;
 }
 
 
@@ -509,6 +508,11 @@ section {
     align-items: center;
     gap: 10px;
 
+    font-size: 1.125rem;
+    line-height: 1.5;
+
+    width: 180px;
+
     color: #fff;
 }
 
@@ -600,8 +604,13 @@ section {
 }
 
 .text-copyright {
+    text-align: center;
+    
     color: #fff;
 }
 
+.footer-1200width {
+    display: none;
+}
 
 
