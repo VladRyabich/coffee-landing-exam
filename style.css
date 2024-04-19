@@ -134,7 +134,7 @@ section {
     padding-top: 15vw;
     padding-bottom: 10vw;
 
-    background-image: url(/images/bg-header.png);
+    background-image: url(./images/bg-header.png);
     background-color: #000;
     background-size: contain;
     background-repeat: no-repeat;
@@ -312,7 +312,7 @@ section {
     padding: 100px 0;
 
     background-color: #000;
-    background-image: url(/images/follow-bg.png);
+    background-image: url(./images/follow-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -474,7 +474,7 @@ section {
     min-height: 410px;
 
     background-color: #0D0402;
-    background-image: url(/images/bg-footer.svg);
+    background-image: url(./images/bg-footer.svg);
 }
 
 .footer-inner {

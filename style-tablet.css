@@ -20,7 +20,7 @@
 
         background-image: linear-gradient(rgb(23 20 20 / 80%),
                                           rgba(0, 0, 0, 0.5)),
-                                          url(/images/bg-header.png);
+                                          url(./images/bg-header.png);
     }
 
     .hero-title {
