@@ -87,7 +87,8 @@
         padding: 15px 40px;
     }
 
-    .footer-sub-item:hover {
+    .footer-sub-item:hover,
+    .footer-sub-item:focus {
         width: 200px;
     }
 
@@ -102,10 +103,11 @@
 
         padding: 10px 10px 10px 0;
 
-        transition: all .5s;
+        transition: all 0.4s;
     }
 
-    .footer-title:hover {
+    .footer-title:hover,
+    .footer-title:focus {
         font-weight: 600;
 
         margin-right: 20px;
@@ -113,7 +115,8 @@
         color: #ff4b32;
     }
 
-    .title-none:hover {
+    .title-none:hover,
+    .title-none:focus {
         font-weight: 400;
 
         color: #fff;
@@ -129,7 +132,8 @@
         transition: all .5s;
     }
 
-    .footer-submenu-link:hover {
+    .footer-submenu-link:hover,
+    .footer-submenu-link:focus {
         font-weight: 600;
 
         color: #ff4b32;
@@ -156,7 +160,8 @@
         margin-top: 20px;
     }
 
-    .footer-menu li:hover > ul {
+    .footer-menu li:hover > ul,
+    .footer-menu li:focus > ul {
         display: block;
     }
 }

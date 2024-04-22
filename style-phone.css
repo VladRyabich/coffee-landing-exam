@@ -20,10 +20,6 @@
         max-width: 390px;
     }
 
-    .menu-link {
-        text-shadow: 1px 1px 3px #ff4b32;
-    }
-
     /*  HERO SECTION  */
     .hero {
         max-height: 40vh;
@@ -55,6 +51,15 @@
 
 
     /*  OFFER SECTION */
+
+    .offer-inner > .title {
+        text-align: center;
+    }
+
+    .offer-text {
+        text-align: center;
+    }
+
     .card-list {
         max-width: 90vw;
     }
